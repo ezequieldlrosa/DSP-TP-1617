@@ -6,7 +6,7 @@
  yaxis= ones(1, N);
  yaxis(xaxis <=(n-a-1))=0;
  yaxis(xaxis>=(n+a+1))=0;
- stem(yaxis)
+ figure, stem(yaxis)
  title('Dirac function')
  xlabel('Samples')
  ylabel('Amplitude')

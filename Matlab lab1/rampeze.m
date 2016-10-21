@@ -8,7 +8,7 @@
  yaxis(xaxis>=n)=1:(N-n+1);
  
  yaxis=yaxis.*a;
- stem(yaxis)
+ figure, stem(yaxis)
  title('Dirac function')
  xlabel('Samples')
  ylabel('Amplitude')
